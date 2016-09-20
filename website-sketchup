@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<title>Keep me Alive</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+<header>Keep me alive</header>
+
+<style>
+    header{
+        padding: 10px;
+        background-color: pink
+    }
+    </style>    
+<body class="w3-content" style="max-width:1300px">
+
+
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>Plants need water</h1>
+    </div>
+    <!-- Left part -->
+      <div class="w3-padding-64">
+        <p>Hey! Thanks for visiting our environmental friendly website.
+        The point of this website: care for our globe. </p>
+        <p>So here&#39;s the point, see that little plant on the right? Every now and then it needs some water in order to grow and get older.</p>
+        <p>Thats exactly where you can come in handy! So please, please, please upvote, share, and spread the word! or do you want me to die&#63;</p>
+
+    </div>
+  </div>
+    
+    <!-- right part -->
+    
+  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <h1>Look at me!</h1>
+      
+      <div class="w3-left-align w3-padding-xxlarge">
+        <p>This is where the Dave is gonna be.</p>
+          
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16">
+  <p>Created by J. van Rijswijck &amp; T. Kouwenhoven</p>
+</footer>
+
+</body>
+</html>
+
