@@ -65,7 +65,7 @@ header nav a {
 
 #content #mainContent h2{
     color: rgba(59,89,152,1.00);
-    font-size: 14px;
+    font-size: 25px;
     font-family: source-sans-pro, sans-serif;
     padding-left: 2%;
     padding-bottom:1%;
@@ -420,6 +420,11 @@ footer {
 
 /* Mobile view */
 @media screen and (max-width:480px) {
+    #mainwrapper{
+        width:100%;
+    }
+    
+    
 #mainwrapper header #logo {
 	/* Company Logo text in header */
 	width: 65%;
