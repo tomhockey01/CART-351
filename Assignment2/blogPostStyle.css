@@ -344,8 +344,21 @@ footer {
     position: relative;
     float: left;
     margin-top: 5px;
-    }    
+}    
 
+#mainContent {
+	/* Container for the blog post in individal blog view */
+	width: 100%;
+	float: left;
+}    
+    
+#mainwrapper #content #sidebar {
+	/* sidebar */
+    padding-right: 0;
+    width:100%;
+
+}
+    
 #content #mainContent h1,#content #sidebar h1 {
     color: rgba(255,255,255,1.00);
     font-size: 16px;
@@ -402,10 +415,6 @@ footer {
     background: rgba(246,246,246,1.00);
 }
     
-#mainwrapper #content #sidebar {
-	/* sidebar */
-	padding-bottom: 0px;
-}
 #content .notOnDesktop {
 	/* Search box shown only in mobile and tablet view */
 	width: 100%;
