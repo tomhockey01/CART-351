@@ -307,6 +307,8 @@ footer {
 	/* Container of all content */
 	overflow: auto;
     background-color: #f9f9f9;
+    margin-left: 0;
+    width: 100%;
 }
     
 #mainwrapper header #logo {
