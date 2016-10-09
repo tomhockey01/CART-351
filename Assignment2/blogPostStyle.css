@@ -17,7 +17,7 @@
 	padding-bottom: 12px;
 	color: rgba(255,255,255,1.00);
     font-family: source-sans-pro, sans-serif;
-    font-size: 30px;
+    font-size: 38px;
 }
 
 #mainwrapper #logo img{
@@ -38,11 +38,15 @@
     right: 0%;
 }
 
-#mainwrapper header nav img {
-    width:64px;
-    height: 64px;
+.plus_icon{
+    width:96px;
+    height:32px;
 }
 
+.notification_icon{
+    width:64px;
+    height:54px;
+}
 
 header nav a {
 	/* Links in header */
@@ -59,18 +63,19 @@ header nav a {
     padding-top:1%;
 }
 
+#content #mainContent h2{
+    color: rgba(59,89,152,1.00);
+    font-size: 14px;
+    font-family: source-sans-pro, sans-serif;
+    padding-left: 2%;
+    padding-bottom:1%;
+    padding-top:1%;
+}
+
 #content #mainContent a:link{
     text-decoration: none;
     color: pink;
     font-family: source-sans-pro, sans-serif;
-}
-
-#content #mainContent h3 {
-	/*Captions ot Taglines */
-	font-family: source-sans-pro, sans-serif;
-	font-style: normal;
-	font-weight: 200;
-	color: rgba(146,146,146,1.00);
 }
 
 #content #mainContent #event_info p{
@@ -84,6 +89,7 @@ header nav a {
 	font-style: normal;
 	font-weight: 200;
 	text-align: justify;
+    padding:2%;
 }
 
 .single_event{
@@ -92,6 +98,12 @@ header nav a {
     margin-bottom: 2%;
     background: rgba(246,246,246,1.00);
 }
+
+.going{
+    width: 100%;
+    max-width: 300px;
+}
+
 #content #mainContent #authorInfo {
 	/* Author info section */
 	background-color: rgba(208,207,207,1.00);
@@ -410,15 +422,65 @@ footer {
 @media screen and (max-width:480px) {
 #mainwrapper header #logo {
 	/* Company Logo text in header */
-	width: 96%;
+	width: 65%;
 	margin-left: 2%;
+    font-size: 18px;
 }
 #mainwrapper header nav {
 	/*navigation links in header */
 	text-align: center;
-	background-color: rgba(255,255,255,1.00);
-	width: 98%;
+	background-color: rgba(59,89,152,1.00);
+	width: 30%;
+    position: absolute;
 }
+
+#mainwrapper #logo img{
+    width:32px;
+    height: auto;
+    margin-right: 5%;
+}  
+    
+.notification_icon{
+    height:32px;
+    width:32px;
+    position: relative;
+    float: left;
+}
+    
+.plus_icon{
+    height:24px;
+    width:48px;
+    position: relative;
+    float: left;
+    margin-top: 5px;
+    }    
+
+#content #mainContent h1,#content #sidebar h1 {
+    color: rgba(255,255,255,1.00);
+    font-size: 16px;
+    font-family: source-sans-pro, sans-serif;
+    background-color: rgba(59,89,152,1.00);
+    padding-left: 2%;
+    padding-bottom:1%;
+    padding-top:1%;
+}    
+    
+#content #mainContent p {
+	/* All paragraphs under maincontent */
+	color: rgba(50,50,50,1.00);
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	text-align: justify;
+    font-size: 12px;
+    padding:2%;
+}
+    
+.going{
+    width: 100%;
+    max-width: 200px;
+}
+    
 #content #sidebar #adimage {
 	/* Container for image in sidebar */
 	width: 100%;
