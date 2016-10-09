@@ -408,10 +408,7 @@ footer {
 	padding-left: 2%;
 	padding-right: 2%;
 }
-#content footer article {
-	/*Each footer article */
-	width: 46%;
-}
+
 #mainwrapper header {
 	/* Header */
 	width: 100%;
@@ -487,19 +484,35 @@ footer {
 }
     
 #content #sidebar #adimage {
-	/* Container for image in sidebar */
-	width: 100%;
+	/* Image in sidebar */
+	width: 95%;
+	margin-top: 2px;
+    margin-left:2.5%;
+	float: left;
+    position: relative;
 }
-#content #sidebar nav {
-	/* Navigation bar for links in sidebar */
-	width: 96%;
-	padding-top: 7px;
+
+.single_event_sidebar h2{
+    color: rgba(59,89,152,1.00);
+    font-size: 14px;
+    font-family: source-sans-pro, sans-serif;
 }
-#sidebar nav ul li {
-	display: inline-block;
-	width: 32%;
-	text-align: center;
+
+.single_event_sidebar p{
+    color: rgba(50,50,50,1.00);
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	text-align: justify;
+    font-size: 12px;
+}    
+    
+.single_event_sidebar{
+    border: 1px solid rgba(208,207,207,1.00);
+    margin-bottom: 2%;
+    background: rgba(246,246,246,1.00);
 }
+    
 #mainwrapper #content #sidebar {
 	/* sidebar */
 	padding-bottom: 0px;
