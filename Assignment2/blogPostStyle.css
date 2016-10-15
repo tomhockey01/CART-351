@@ -40,13 +40,13 @@
 }
 
 .plus_icon{
-    width:96px;
-    height:32px;
+    width:70px;
+    height:30px;
 }
 
 .notification_icon{
-    width:64px;
-    height:54px;
+    width:44px;
+    height:34px;
 }
 
 header nav a {
@@ -162,7 +162,6 @@ header nav a {
     border: 1px solid rgba(208,207,207,1.00);
     background: rgba(246,246,246,1.00);
     text-align: justify;
-    position: relative;
 }
 
 .single_event_sidebar h2{
