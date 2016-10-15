@@ -162,6 +162,7 @@ header nav a {
     border: 1px solid rgba(208,207,207,1.00);
     background: rgba(246,246,246,1.00);
     text-align: justify;
+    position: relative;
 }
 
 .single_event_sidebar h2{
@@ -351,7 +352,6 @@ footer {
 	width: 100%;
 	float: left;
     margin-left: 0;
-    background-color: pink;
 }    
     
 #mainwrapper #content #sidebar {
@@ -359,8 +359,6 @@ footer {
     padding-right: 0;
     width:100%;
     margin-left:0;
-    background-color: black;
-
 }
     
 #content #mainContent h1,#content #sidebar h1 {
@@ -391,13 +389,21 @@ footer {
     
 #content #sidebar #adimage {
 	/* Image in sidebar */
-	width: 95%;
+	width: 100%;
 	margin-top: 2px;
-    margin-left:2.5%;
-	float: left;
-    position: relative;
+    
 }
+    
+.single_event_sidebar{
+    border: 1px solid rgba(208,207,207,1.00);
+    margin-bottom: 1%;
+    background: rgba(246,246,246,1.00);
+}    
 
+.sidebar_wrapper{ 
+    border: 0px;
+}    
+    
 .single_event_sidebar h2{
     color: rgba(59,89,152,1.00);
     font-size: 14px;
@@ -413,12 +419,6 @@ footer {
     font-size: 12px;
 }    
     
-.single_event_sidebar{
-    border: 1px solid rgba(208,207,207,1.00);
-    margin-bottom: 2%;
-    background: rgba(246,246,246,1.00);
-}
-    
 #content .notOnDesktop {
 	/* Search box shown only in mobile and tablet view */
 	width: 100%;
@@ -426,14 +426,7 @@ footer {
 	padding-left: 0px;
 	padding-right: 0px;
 }
-#content .notOnDesktop input {
-	width: 80%;
-	text-align: center;
-}
-#content #mainContent h3 {
-	/* Title under maincontent, if any */
-	font-size: 14px;
-}
+
 #content footer article {
 	/* Each foter article */
 	width: 96%;
