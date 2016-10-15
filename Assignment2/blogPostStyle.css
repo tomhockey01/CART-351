@@ -350,12 +350,16 @@ footer {
 	/* Container for the blog post in individal blog view */
 	width: 100%;
 	float: left;
+    margin-left: 0;
+    background-color: pink;
 }    
     
 #mainwrapper #content #sidebar {
 	/* sidebar */
     padding-right: 0;
     width:100%;
+    margin-left:0;
+    background-color: black;
 
 }
     
