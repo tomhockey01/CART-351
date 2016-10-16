@@ -47,18 +47,14 @@ header nav {
     right: 15%;
 }
 
-.plus_icon{
-    width:70px;
-    height:30px;
-}
-
 .notification_icon{
-    width:44px;
-    height:34px;
+    width:32px;
+    height:32px;
 }
 
 .settings_icon{
     margin-bottom: 2px;
+    margin-right: 2px;
 }
 
 header nav a {
