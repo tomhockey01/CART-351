@@ -1,42 +1,50 @@
 @charset "UTF-8";
+#mainwrapper {
+	/* Container of all content */
+	width: 70%;
+	overflow: auto;
+	margin-left: 15%;
+    margin-right: 15%;
+    background-color: #f9f9f9;
+}
 
-#mainwrapper header {
+header {
 	/*Header */
-	background-color: rgba(59,89,152,1.00);
+    background-color: rgba(59,89,152,1.00);
 	overflow: auto;
 	font-family: montserrat, sans-serif;
 	font-style: normal;
 	font-weight: 400;
     position: relative;
 }
-#mainwrapper header #logo {
+header #logo {
 	/* Company Logo text */
-	width: 70%;
+	margin-left:15%;
+    width: 50%;
 	float: left;
 	padding-left: 2%;
 	padding-top: 12px;
-	padding-bottom: 12px;
 	color: rgba(255,255,255,1.00);
     font-family: source-sans-pro, sans-serif;
     font-size: 38px;
 }
 
-#mainwrapper #logo img{
+#logo img{
     width:70px;
     height: auto;
     margin-right: 5%;
 }
 
-#mainwrapper header nav {
+header nav {
 	/*Nav bar containing links in header */
 	text-align: right;
 	padding-right: 2%;
-	width: 30%;
+	width: 200px;
 	float: left;
 	color: rgba(146,146,146,1.00);
     position: absolute;
     bottom:0%;
-    right: 0%;
+    right: 15%;
 }
 
 .plus_icon{
@@ -47,6 +55,10 @@
 .notification_icon{
     width:44px;
     height:34px;
+}
+
+.settings_icon{
+    margin-bottom: 2px;
 }
 
 header nav a {
@@ -127,14 +139,6 @@ header nav a {
     padding-top: 2%;
 	float: left;
 	
-}
-#mainwrapper {
-	/* Container of all content */
-	width: 80%;
-	overflow: auto;
-	margin-left: 10%;
-    margin-right: 10%;
-    background-color: #f9f9f9;
 }
 
 .sidebar_wrapper{
@@ -311,21 +315,23 @@ footer {
     width: 100%;
 }
     
-#mainwrapper header #logo {
+header #logo {
 	/* Company Logo text in header */
 	width: 65%;
 	margin-left: 2%;
     font-size: 18px;
 }
-#mainwrapper header nav {
+header nav {
 	/*navigation links in header */
 	text-align: center;
 	background-color: rgba(59,89,152,1.00);
 	width: 30%;
     position: absolute;
+    margin-right: 0;
+    
 }
 
-#mainwrapper #logo img{
+#logo img{
     width:32px;
     height: auto;
     margin-right: 5%;
@@ -340,11 +346,15 @@ footer {
     
 .plus_icon{
     height:24px;
-    width:48px;
+    width:auto;
     position: relative;
     float: left;
-    margin-top: 5px;
 }    
+    
+.settings_icon{
+    position: relative;
+    float: left;
+}
 
 #mainContent {
 	/* Container for the blog post in individal blog view */
