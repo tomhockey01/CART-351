@@ -445,7 +445,7 @@ header h1{
     
 .going{
     width: 100%;
-    max-width: 200px;
+    padding-left: 35px;
 }
     
 #content #sidebar #adimage {
