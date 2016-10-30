@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Assignment 3: Travel destination</title>
-        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://github.com/tomhockey01/CART-351/blob/master/Assignment_3/style.css" rel="stylesheet" type="text/css">
     </head>
     
     <body>
