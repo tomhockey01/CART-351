@@ -56,7 +56,7 @@ header nav {
     margin-left: 20px;
     border: 1px solid #c9a859;
     border-radius: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 #content #mainContent p {
@@ -70,7 +70,7 @@ header nav {
 	/* Author info section */
 	background-color: #932439;
     position: fixed;
-    bottom:80px;
+    bottom:75px;
     width:100%;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -127,12 +127,13 @@ header nav a {
     
 .menus img{
     text-align: center;
-    width:64px;
-    height:64px;
-    padding 5px;
+    width:48px;
+    height:48px;
+    padding:5px;
     border: 1px solid #c9a859;
     border-radius: 5px;
     margin: 0 5px;
+    background-color: #c9a859 
 }
 
 #content .notOnDesktop {
