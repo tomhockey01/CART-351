@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+header {
+	/*Header */
+	background-color: #932439;
+	overflow: auto;
+	font-family: montserrat, sans-serif;
+    position: fixed;
+    width: 100%;
+    top:0px;
+}
+
+header h1{
+    font-size: 16px;
+    float: left;
+    color: #c9a859;
+}
+header #logo {
+	/* Company Logo text */
+	width: 60%;
+	float: left;
+	padding-left: 2%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: rgba(146,146,146,1.00);
+}
+
+#logo img{
+    float:left;
+    position: relative;
+    margin-right: 20%;
+    margin-top: 4px;
+}
+
+header nav {
+	/*Nav bar containing links in header */         
+    position: relative;
+    float: left;
+    color: rgba(146,146,146,1.00);
+    right:5px;
+    top:3px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-left: 25% 
+}
+
+.upper_icons{
+    width:32px;
+    height:32px;
+}
+
+#content #mainContent h1, #content #mainContent h2 {
+	font-size: 16px;
+    color: rgba(146,146,146,1.00);
+}
+
+#content #mainContent p {
+	/* All paragraphs under maincontent */
+	color: rgba(146,146,146,1.00);
+	font-family: source-sans-pro, sans-serif;
+	text-align: justify;
+}
+#content #mainContent #authorInfo {
+	/* Author info section */
+	background-color: rgba(208,207,207,1.00);
+}
+#content #mainContent #authorInfo h2, #content #mainContent #authorInfo p {
+	color: rgba(255,255,255,1.00);
+    padding-top: 5px;
+}
+.input{
+    width: 90%;
+    height:30px;
+    margin-bottom: 5px;
+    border: 0px;
+}
+footer article {
+	/* Footer articles */
+	float: left;
+	text-align: justify;
+	font-family: source-sans-pro, sans-serif;
+	color: rgba(146,146,146,1.00);
+}
+
+#mainwrapper {
+	/* Container of all content */
+	width: 100%;
+	overflow: auto;
+    margin-top: 50px;
+}
+
+.notOnDesktop {
+	/*element to be displayed only in mobile view and tabet view */
+	display: none;
+}
+header nav a {
+	/* Links in header */
+	color: rgba(146,146,146,1.00);
+	text-decoration: none;
+}
+
+/* Mobile view */
+@media screen and (max-width:480px) {
+.notOnDesktop {
+	/* Search box shown only in mobile view and Tablet view */
+	display: block;
+	text-align: right;
+	width: 100%;
+}
+    
+#mainContent {
+	/* Container for the blog post */
+	padding-top: 0px;
+	float: none;
+	width: 100%;
+}
+    
+footer article p{
+    padding-left:5px;
+    padding-right: 5px;
+    
+}
+
+.menus{
+    text-align: center;
+    padding-top: 5px;
+}    
+    
+.menus img{
+    text-align: center;
+    width:32px;
+    height:32px;
+    padding 5px;
+    border: 1px solid #c9a859;
+    border-radius: 5px;
+    margin: 0 25px;
+}
+
+#content .notOnDesktop {
+	/* Search box shown only in mobile and tablet view */
+	width: 100%;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+    
+#content footer article {
+	/* Each foter article */
+	margin-top: 5px;
+    width: 100%;
+    background-color: #932439
+}
+    
+}
