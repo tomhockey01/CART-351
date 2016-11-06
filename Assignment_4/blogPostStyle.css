@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 body{
-    overflow: hidden;
     background-color: #dddddd;
 }
 
@@ -141,5 +140,23 @@ header nav a {
     width: 100%;
     background-color: #932439
 }
+ 
+.options{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}    
+
+.options a:link{
+    text-decoration: none;
+}
     
+.option{ 
+    background-color: #aaaaaa;
+    margin-top:10px;
+    border-radius: 5px;
+    padding:5px;
+}   
+
 }
