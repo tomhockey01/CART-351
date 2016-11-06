@@ -70,7 +70,7 @@ header nav {
 	background-color: #932439;
     position: relative;
     width:100%;
-    
+    margin-top: 390px;
 }
 #content #mainContent #authorInfo h2, #content #mainContent #authorInfo p {
 	color: #c9a859;
