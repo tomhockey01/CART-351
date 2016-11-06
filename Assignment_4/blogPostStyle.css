@@ -77,11 +77,20 @@ header nav {
 }
 
 .input{
-    width: 90%;
+    float:left;
+    width: 70%;
     height:60px;
+    margin-left: 10px;
     margin-bottom: 5px;
     border: 0px;
     border-radius: 5px;
+}
+
+.submit{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-top:20px;
 }
 
 #mainwrapper {
