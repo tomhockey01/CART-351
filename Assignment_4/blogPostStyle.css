@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body{
+    overflow: hidden;
+}
+
 header {
 	/*Header */
 	background-color: #932439;
@@ -59,10 +63,14 @@ header nav {
 	color: rgba(146,146,146,1.00);
 	font-family: source-sans-pro, sans-serif;
 	text-align: justify;
+    padding:10px;
 }
 #content #mainContent #authorInfo {
 	/* Author info section */
-	background-color: #932439 ;
+	background-color: #932439;
+    position: relative;
+    width:100%;
+    
 }
 #content #mainContent #authorInfo h2, #content #mainContent #authorInfo p {
 	color: #c9a859;
@@ -73,13 +81,6 @@ header nav {
     height:100px;
     margin-bottom: 5px;
     border: 0px;
-}
-footer article {
-	/* Footer articles */
-	float: left;
-	text-align: justify;
-	font-family: source-sans-pro, sans-serif;
-	color: rgba(146,146,146,1.00);
 }
 
 #mainwrapper {
