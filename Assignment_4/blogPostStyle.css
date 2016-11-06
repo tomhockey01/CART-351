@@ -60,7 +60,11 @@ header nav {
 
 #content #mainContent p {
 	/* All paragraphs under maincontent */
-	color: rgba(146,146,146,1.00);
+	margin-right: 20px;
+    margin-left: 20px;
+    border: 1px solid #c9a859;
+    border-radius: 5px;
+    color: rgba(146,146,146,1.00);
 	font-family: source-sans-pro, sans-serif;
 	text-align: justify;
     padding:10px;
@@ -70,7 +74,7 @@ header nav {
 	background-color: #932439;
     position: relative;
     width:100%;
-    margin-top: 390px;
+    margin-top: 
 }
 #content #mainContent #authorInfo h2, #content #mainContent #authorInfo p {
 	color: #c9a859;
