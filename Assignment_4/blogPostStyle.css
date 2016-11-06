@@ -7,7 +7,8 @@ body{
 
 header {
 	/*Header */
-	background-color: #932439;
+	text-align: center;
+    background-color: #932439;
 	overflow: auto;
 	font-family: montserrat, sans-serif;
     position: fixed;
@@ -17,12 +18,10 @@ header {
 
 header h1{
     font-size: 16px;
-    float: left;
     color: #c9a859;
 }
 header #logo {
 	/* Company Logo text */
-	width: 70%;
 	float: left;
 	padding-left: 2%;
 	padding-top: 5px;
@@ -39,14 +38,12 @@ header #logo {
 
 header nav {
 	/*Nav bar containing links in header */         
-    position: relative;
-    float: left;
+    position: fixed;
+    top:4px;
+    right:10px;
     color: rgba(146,146,146,1.00);
-    right:5px;
-    top:3px;
     padding-top:5px;
     padding-bottom: 5px;
-    margin-left: 15% 
 }
 
 .upper_icons{
