@@ -16,6 +16,7 @@ header {
 }
 
 header h1{
+    margin-top: 15px;
     font-size: 16px;
     color: #c9a859;
 }
@@ -124,9 +125,17 @@ header nav a {
     text-align: center;
     padding-top: 5px;
 }    
+  
+.back{
+    width:20px;
+    height:20px;
+    padding:5px;
+    border: 1px solid #c9a859;
+    border-radius: 5px;
+    background-color: #c9a859     
+}
     
 .menus img{
-    text-align: center;
     width:48px;
     height:48px;
     padding:5px;
