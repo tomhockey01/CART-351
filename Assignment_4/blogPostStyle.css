@@ -77,6 +77,14 @@ header nav {
     padding-bottom: 5px;
 }
 
+li{
+    text-align: left;
+    color: #666666;
+	font-family: source-sans-pro, sans-serif;
+	text-align: justify;
+    padding-right: 10px;
+}
+
 .input{
     float:left;
     width: 56%;
